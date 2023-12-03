@@ -8,11 +8,4 @@ public class GuestDto {
     private String name;
     private String lastName;
     private String middleName;
-    private Education education;
-
-    private class Education {
-        private int course;
-        private int group;
-        private String direction;
-    }
 }

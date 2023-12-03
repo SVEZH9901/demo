@@ -64,7 +64,6 @@ public class GuestServiceImpl implements GuestService {
         guest.setName(guestDto.getName());
         guest.setLastName(guestDto.getLastName());
         guest.setMiddleName(guestDto.getMiddleName());
-        guest.setCourse(guest.getCourse());
 
         Guest updatedGuest = guestRepository.save(guest);
 

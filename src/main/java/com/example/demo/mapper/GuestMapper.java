@@ -16,7 +16,6 @@ public class GuestMapper {
         guestDto.setName(guest.getName());
         guestDto.setLastName(guest.getLastName());
         guestDto.setMiddleName(guest.getMiddleName());
-        guestDto.setEducation(guestDto.getEducation());
         return guestDto;
     }
 

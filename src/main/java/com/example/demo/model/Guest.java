@@ -20,9 +20,6 @@ public class Guest {
     @Column(name = "last_name")
     private String lastName;
     private String middleName;
-    private int course;
-    private int group;
-    private String direction;
 
     @OneToMany(mappedBy = "guest",
                cascade = CascadeType.ALL,
